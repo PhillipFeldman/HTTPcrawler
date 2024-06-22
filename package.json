@@ -1,0 +1,23 @@
+{
+  "name": "httpcrawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhillipFeldman/HTTPcrawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhillipFeldman/HTTPcrawler/issues"
+  },
+  "homepage": "https://github.com/PhillipFeldman/HTTPcrawler#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
