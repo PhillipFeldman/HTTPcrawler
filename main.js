@@ -1,4 +1,6 @@
 const {crawlPage} = require('./crawl.js')
+const {printReport} = require('./report.js')
+
 
 async function main(){
 
@@ -16,9 +18,7 @@ async function main(){
 
     console.log(`starting crawl of ${baseURL}`)
    const pages =  await crawlPage(baseURL,baseURL,{})
-for (const page of Object.entries(pages)){
-    console.log(page)
-}
+printReport(pages)
 }
 
 main()
